@@ -7,7 +7,7 @@ Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
-DITEN - Università degli Studi di Genova.
+DITEN - Universitï¿½ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
@@ -88,6 +88,7 @@ ACTIVITIES
 "Avg_tBodyAcc-std()-Y"                
 "Avg_tBodyAcc-std()-Z"
 - Represents the average of mean and standard deviation of time-domain body acceleration signals in X,Y,Z axis.
+- Units: standard gravity units 'g'
 
 "Avg_tGravityAcc-mean()-X"            
 "Avg_tGravityAcc-mean()-Y"           
@@ -96,6 +97,7 @@ ACTIVITIES
 "Avg_tGravityAcc-std()-Y"             
 "Avg_tGravityAcc-std()-Z"  
 - Represents the average of mean and standard deviation of time-domain gravity acceleration signals in X,Y,Z axis.
+- Units: standard gravity units 'g'
       
 "Avg_tBodyAccJerk-mean()-X"           
 "Avg_tBodyAccJerk-mean()-Y"          
@@ -104,6 +106,7 @@ ACTIVITIES
 "Avg_tBodyAccJerk-std()-Y"            
 "Avg_tBodyAccJerk-std()-Z" 
 - Represents the average of mean and standard deviation of time-domain body linear acceleration signals (Jerk signals) in X,Y,Z axis.
+- Units: g/s
 
 "Avg_tBodyGyro-mean()-X"              
 "Avg_tBodyGyro-mean()-Y"             
@@ -112,6 +115,7 @@ ACTIVITIES
 "Avg_tBodyGyro-std()-Y"               
 "Avg_tBodyGyro-std()-Z"
 - Represents the average of mean and standard deviation of time-domain angular velocity signals in X,Y,Z axis.
+- Units: rad/s
             
 "Avg_tBodyGyroJerk-mean()-X"          
 "Avg_tBodyGyroJerk-mean()-Y"         
@@ -120,18 +124,23 @@ ACTIVITIES
 "Avg_tBodyGyroJerk-std()-Y"          
 "Avg_tBodyGyroJerk-std()-Z"
 - Represents the average of mean and standard deviation of time-domain angular velocity Jerk signals in X,Y,Z axis.
-  
+- Units: rad/s^2  
+
 "Avg_tBodyAccMag-mean()"              
 "Avg_tBodyAccMag-std()"              
 "Avg_tGravityAccMag-mean()"           
 "Avg_tGravityAccMag-std()"           
 "Avg_tBodyAccJerkMag-mean()"          
-"Avg_tBodyAccJerkMag-std()"          
+"Avg_tBodyAccJerkMag-std()"  
+- Represents the average of mean and standard deviation of the Magnitude of the respective signals
+- Unit: g
+
 "Avg_tBodyGyroMag-mean()"             
 "Avg_tBodyGyroMag-std()"             
 "Avg_tBodyGyroJerkMag-mean()"         
 "Avg_tBodyGyroJerkMag-std()"         
 - Represents the average of mean and standard deviation of the Magnitude of the respective signals
+- Unit: rad/s
 
 "Avg_fBodyAcc-mean()-X"               
 "Avg_fBodyAcc-mean()-Y"              
@@ -140,11 +149,13 @@ ACTIVITIES
 "Avg_fBodyAcc-std()-Y"                
 "Avg_fBodyAcc-std()-Z" 
 - Represents the average of mean and standard deviation of frequency-domain body acceleration signals in X,Y,Z axis.
+- Unit: g
 
 "Avg_fBodyAcc-meanFreq()-X"           
 "Avg_fBodyAcc-meanFreq()-Y"          
 "Avg_fBodyAcc-meanFreq()-Z"
 - Represents the average of the Weighted average of the respective frequency components in X,Y,Z axis.
+- Unit: g
            
 "Avg_fBodyAccJerk-mean()-X"          
 "Avg_fBodyAccJerk-mean()-Y"           
@@ -153,11 +164,13 @@ ACTIVITIES
 "Avg_fBodyAccJerk-std()-Y"           
 "Avg_fBodyAccJerk-std()-Z"            
 - Represents the average of mean and standard deviation of frequency-domain body linear acceleration signals (Jerk signals) in X,Y,Z axis.
+- Unit: g
 
 "Avg_fBodyAccJerk-meanFreq()-X" 
 "Avg_fBodyAccJerk-meanFreq()-Y"       
 "Avg_fBodyAccJerk-meanFreq()-Z" 
 - Represents the average of the Weighted average of the respective frequency components in X,Y,Z axis.
+- Unit: g/s
 
 "Avg_fBodyGyro-mean()-X"              
 "Avg_fBodyGyro-mean()-Y"             
@@ -166,29 +179,35 @@ ACTIVITIES
 "Avg_fBodyGyro-std()-Y"               
 "Avg_fBodyGyro-std()-Z"
 - Represents the average of mean and standard deviation of frequency-domain angular velocity signals in X,Y,Z axis.
+- Unit: rad/s
               
 "Avg_fBodyGyro-meanFreq()-X"          
 "Avg_fBodyGyro-meanFreq()-Y"         
 "Avg_fBodyGyro-meanFreq()-Z"          
 - Represents the average of the Weighted average of the respective frequency components in X,Y,Z axis.
+- Unit: rad/s
 
 "Avg_fBodyAccMag-mean()"             
 "Avg_fBodyAccMag-std()"               
 "Avg_fBodyAccMag-meanFreq()"
 - Represents the average of mean and standard deviation of the Magnitude of the respective signals
+- Unit: g
          
 "Avg_fBodyBodyAccJerkMag-mean()"      
 "Avg_fBodyBodyAccJerkMag-std()"      
 "Avg_fBodyBodyAccJerkMag-meanFreq()"
 - Represents the average of mean and standard deviation of the Magnitude of the respective signals
+- Unit: g/s
   
 "Avg_fBodyBodyGyroMag-mean()"        
 "Avg_fBodyBodyGyroMag-std()"          
 "Avg_fBodyBodyGyroMag-meanFreq()"
 - Represents the average of mean and standard deviation of the Magnitude of the respective signals
+- Unit:rad/s
     
 "Avg_fBodyBodyGyroJerkMag-mean()"     
 "Avg_fBodyBodyGyroJerkMag-std()"     
 "Avg_fBodyBodyGyroJerkMag-meanFreq()"
 - Represents the average of mean and standard deviation of the Magnitude of the respective signals
+- Unit: rad/s^2
 
